@@ -1,20 +1,38 @@
+
 .body{
     margin: 0;
     background-color: #131518;
+    font-family: Overpass;
 }
 
 .container{
     background-color: #262e38;
-    color: #FFF;
+    color: #969FAD;
     margin: 150px 20px;
     padding: 25px;
     font: small lighter;
    /* color: #969FAD;*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Overpass;
+    border-radius: 15px;
 }
 
-.star{
-    
+.container h1{
+    color: #FFF;
+}
+
+#star{
+    background-color: #2c3642;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+      
+}
+
+.img{
+    margin-top: 12px;
 }
 
 
@@ -33,7 +51,6 @@
     text-decoration: none;
     line-height: 42px;
     text-align: center;
-    padding: 10px;
     border: 1px;
     padding: 0;
     border-radius: 50%;
@@ -42,6 +59,13 @@
     width: 42px;
 }
 
+.button-number:hover{
+    background-color: #FC7614;
+    color: #FFF;
+}
+
+
+
 .button{
     background-color: #FC7614;
     color: #FFF;
@@ -49,4 +73,7 @@
     height: 40px;
     border-radius: 20px;
     border: #FFF;
+    font-family: Overpass;
 }
+
+
